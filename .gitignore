@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-API_KEY = 'AIzaSyDc8b5hJrpoSvoBA2G1lhvQLBnO0c6YLzQ'
+API_KEY = 'AIzaSyDc8b5hJrpoShvQLBnO0c6YLzQ'
 Youtube = build('youtube', 'v3', developerKey=API_KEY)
 call = Youtube.search().list(
     q = 'PP Krit clips',
