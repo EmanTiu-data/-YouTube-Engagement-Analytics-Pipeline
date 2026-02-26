@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-API_KEY = 'AIzaSyDc8b5hJrpoSvoBA2G1lhvQLBnO0c6YLzQ'
+API_KEY = 'AIzaSyDc8b5hJrpoSvohvQLBnO0c6YLzQ'
 Youtube = build('youtube', 'v3', developerKey=API_KEY)
 call = Youtube.search().list(
     q = 'PP Krit clips',
@@ -54,4 +54,5 @@ plt.grid(axis='x', linestyle='--', alpha=0.7)
 plt.tight_layout()
 plt.savefig(' Grafica_engagement_ppKrit.png')
 print('\n Grafica generada')
+
 plt.show()
